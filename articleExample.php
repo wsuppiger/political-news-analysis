@@ -42,7 +42,7 @@ function getArticle(url, request) {
         };
 		var table = document.getElementById('table').value;
 
-		xmlhttp.open("POST", "/politics/postURL.php", true);
+		xmlhttp.open("POST", "/postURL.php", true);
 		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 		xmlhttp.send("url=" + url + "&request="+ request + "&table=" + table);
     }
