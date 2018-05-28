@@ -10,4 +10,4 @@ if($postRequest == 1){
 }
 else if($postRequest == 2){
 	echo analyzeArticle(URLtoArticle($postURL), $postURL, $postTable);
-}
+} 
