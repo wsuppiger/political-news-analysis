@@ -1,10 +1,10 @@
 # political-news-analysis
 The goal of this project was to gather data from news sources using IBM Watson's tone analyzer.
 
-##Working example:
-###https://projects.suppiger.org/projects/politicalNews.php
+## Working example:
+### https://projects.suppiger.org/projects/politicalNews.php
 
-##functions.php
+## functions.php
 ### URLtoArticle()
 
 ##### purpose
@@ -42,7 +42,7 @@ function found  [here](https://stackoverflow.com/a/13480009/7873106 "here") and 
 1. $table - the table name to insert the data into
 2. $assoc - the associative array of the data
 
-#####SQL table columns:
+##### SQL table columns:
 news source
 url
 story
@@ -60,5 +60,5 @@ extraversion_big5
 agreeableness_big5
 emotional_range_big5
 
-###get_fcontent()
+### get_fcontent()
 For more information [click here](https://stackoverflow.com/a/5402193/7873106 "get_fcontent()") 
