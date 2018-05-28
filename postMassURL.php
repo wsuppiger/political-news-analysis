@@ -9,3 +9,4 @@ foreach ($postURL as $url){
 		analyzeArticle(URLtoArticle($url), $url, $postTable);
 	}
 }
+ 
