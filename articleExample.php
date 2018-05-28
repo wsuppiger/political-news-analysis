@@ -46,5 +46,5 @@ function getArticle(url, request) {
 		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 		xmlhttp.send("url=" + url + "&request="+ request + "&table=" + table);
     }
-}
+} 
 </script>
