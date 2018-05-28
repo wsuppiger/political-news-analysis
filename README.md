@@ -14,7 +14,7 @@ The URLtoArticle uses the [get_fcontent()](https://stackoverflow.com/a/5402193/7
 1. $url - the url of the article
 2. $tld - default is ".com", but this parameter takes any TLD
 
-###URLtoSource()
+### URLtoSource()
 
 ##### purpose
 Parses the source out of the URL for the URLtoArticle() function.
@@ -23,7 +23,7 @@ Parses the source out of the URL for the URLtoArticle() function.
 1. $url - the url of the article
 2. $tld - default is ".com", but this parameter takes any TLD
 
-###analyzeArticle()
+### analyzeArticle()
 
 ##### purpose
 This takes the article and uses [the watson sdk](https://github.com/CognitiveBuild/WatsonPHPSDK "the watson sdk") to send and recieve the article's analysis.  Make sure you change the global variables $usernameWatson and $passwordWatson for it to work correctly.  It then stores the article & tones in a SQL table for later analysis.
@@ -33,7 +33,7 @@ This takes the article and uses [the watson sdk](https://github.com/CognitiveBui
 2. $url - the url of the article
 3. $SQLtable - table to store SQL results in
 
-###mysqli_insert()
+### mysqli_insert()
 
 ##### purpose
 function found  [here](https://stackoverflow.com/a/13480009/7873106 "here") and it is used to convert an associative array to a sql statement.  Make sure to update SQL $username, $password, and $db variables found in the function in order to work.
