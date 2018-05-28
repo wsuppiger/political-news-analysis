@@ -43,22 +43,22 @@ function found  [here](https://stackoverflow.com/a/13480009/7873106 "here") and 
 2. $assoc - the associative array of the data
 
 ##### SQL table columns:
-news source
-url
-story
-anger
-disgust
-fear
-joy
-sadness
-analytical
-confident
-tentative
-openness_big5
-conscientiousness_big5
-extraversion_big5
-agreeableness_big5
-emotional_range_big5
+1. news source
+2. url
+3. story
+4. anger
+5. disgust
+6. fear
+7. joy
+8. sadness
+9. analytical
+10. confident
+11. tentative
+12. openness_big5
+13. conscientiousness_big5
+14. extraversion_big5
+15. agreeableness_big5
+16. emotional_range_big5
 
 ### get_fcontent()
 For more information [click here](https://stackoverflow.com/a/5402193/7873106 "get_fcontent()") 
